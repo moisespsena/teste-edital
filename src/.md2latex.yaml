@@ -1,0 +1,11 @@
+find_by:
+  name: main.md
+  work_dir: src
+  
+src: "main.md"
+work_dir: "%D%"
+dst: "/latex/partes/textual.tex"
+joined: ""
+latex:
+  envs:
+    quotation: squote
